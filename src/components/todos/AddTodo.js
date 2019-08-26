@@ -52,19 +52,8 @@ const AddTodo = props => {
         </div>
       </div>
       {error && (
-        <div
-          className="alert alert-warning alert-dismissible fade show my-3"
-          role="alert"
-        >
+        <div className="alert alert-warning fade show my-3" role="alert">
           <strong>Empty!</strong> You should enter a Todo - Dismiss in 2s
-          <button
-            type="button"
-            className="close"
-            data-dismiss="alert"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">&times;</span>
-          </button>
         </div>
       )}
     </Fragment>

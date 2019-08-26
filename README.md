@@ -20,8 +20,8 @@ The above command will run our React app on port 3000.
 
 ## Usage - Extra
 
-1. Validation
-2. Local Storage
+1. Validation - Empty Todos
+2. Local Storage - Persist Todo data
 3. Redux
 
 ### Conclusion
